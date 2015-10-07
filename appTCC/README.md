@@ -1,3 +1,5 @@
 # appTCC
 
-a [Sails](http://sailsjs.org) application
+Projeto TCC APW FURG 2015
+Roberto Edgar Geiss
+Primeiro commit
