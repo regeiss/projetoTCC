@@ -1,0 +1,83 @@
+<div style="text-align:center; font-size:2.5em;margin:15px">
+  Cadastro de Alunos
+</div>
+
+<div class="container">    
+  
+  <div ng-controller="angAlunoController">
+ 
+    <!-- Botão modal -->
+    <button class="btn btn-primary btn-default" data-toggle="modal" data-target="#myModal" ng-click="adicionaItem()">Adicionar</button>
+    <div class="row h5">
+      
+      <div class="col-md-1">
+        Matricula
+      </div>
+
+      <div class="col-md-3">
+        Nome
+      </div>
+      
+      <div class="col-md-2">
+        Fone
+      </div>
+
+      <div class="col-md-2">
+        Email
+      </div>
+      
+      <div class="col-md-3">
+      </div>
+    
+    </div>
+
+    <div class="row" ng-repeat="item in items">
+
+      <div class="col-md-1" ng-bind="item.matricula"></div>
+      <div class="col-md-3" ng-bind="item.nome"></div>
+      <div class="col-md-2" ng-bind="item.fone"></div>
+      <div class="col-md-2" ng-bind="item.email"></div>                  
+      <div class="col-md-3">  
+        <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal" ng-click="editaItem(item)">Editar</button>
+        <button class="btn btn-xs" ng-click="removeItem(item)">Remover</button>
+      </div>
+
+    </div>
+
+    <!-- Tela modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" ng-show="displayForm">
+      
+      <div class="modal-dialog">
+
+        <div class="modal-content">  
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Edição de aluno</h4>
+          </div>
+          
+          <div class="modal-body">
+
+        	  <div class="form-group"> <input type="text" ng-model="aluno.matricula"  class="form-control" placeholder="Matricula"/></div>
+            <div class="form-group"> <input type="text" ng-model="aluno.nome"  class="form-control" placeholder="Nome"/></div>
+            <div class="form-group"> <input type="text" ng-model="aluno.fone"  class="form-control" placeholder="Fone"/></div>          
+            <div class="form-group"> <input type="text" ng-model="aluno.endereco"  class="form-control" placeholder="Endereco"/></div>     
+            <div class="form-group"> <input type="text" ng-model="aluno.cidade"  class="form-control" placeholder="Cidade"/></div>     
+            <div class="form-group"> <input type="text" ng-model="aluno.email"  class="form-control" placeholder="Email"/></div>          
+
+          </div>
+
+          <div class="modal-footer">
+
+       	    <button class="btn btn-primary" ng-click="salvaItem()">Salvar</button>
+       	    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
