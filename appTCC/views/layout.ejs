@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="pt-br" ng-app>
 
   <head>
 
@@ -11,7 +11,50 @@
 
   <body>
 
+    <nav class="navbar navbar-inverse">
+      
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Site NodeJS</a>
+        </div>
+    
+        <div>
+        
+          <ul class="nav navbar-nav">
+
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/aluno">Aluno</a></li>
+            <li><a href="#">Pagina 2</a></li> 
+            <li><a href="#">Pagina 3</a></li> 
+
+          </ul>
+        
+        </div>
+      
+      </div>
+    
+    </nav>
+
     <%- body %>
+
+    <div class="container">
+      
+      <hr>
+      
+        <footer class="footer pull-right">
+          
+          <div>
+          
+            <a href="http://sailsjs.com/">sailsjs.org</a>
+            <div>Programa exemplo de uso NodeJS com SailsJS</div>
+          
+          </div>
+    
+        </footer>
+    
+    </div>
+
     <script src="/vendor/requirejs/require.js" data-main="/js/main"></script> 
   
   </body>

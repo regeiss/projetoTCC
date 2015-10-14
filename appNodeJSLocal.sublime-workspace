@@ -1,0 +1,801 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"idaluno"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"cpf",
+				"cpfcliente"
+			],
+			[
+				"form",
+				"formapgto"
+			],
+			[
+				"en",
+				"enderecoentrega"
+			],
+			[
+				"dias",
+				"diasanos"
+			],
+			[
+				"di",
+				"diasanos"
+			],
+			[
+				"diasm",
+				"diasmes"
+			],
+			[
+				"calcula",
+				"calculaData"
+			],
+			[
+				"Di",
+				"DiasMes"
+			],
+			[
+				"UR",
+				"URL"
+			],
+			[
+				"U",
+				"URLSeparado"
+			],
+			[
+				"tri_la",
+				"tri_lado3"
+			],
+			[
+				"nota",
+				"notaProva"
+			],
+			[
+				"media",
+				"mediaFinal"
+			],
+			[
+				"DI",
+				"DIANASC"
+			],
+			[
+				"M",
+				"MESAT"
+			],
+			[
+				"ANO",
+				"ANONASC"
+			],
+			[
+				"h",
+				"h3	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "appTCC/views/layout.ejs",
+			"settings":
+			{
+				"buffer_size": 1222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n<div class=\" col-md-8 col-md-offset-2\">\n    \n    <div class=\"jumbotron\">\n\n        <h1>Aplicação NodeJs Sails TCC</h1>\n        <h2>Aplicação desenvolvida para APW.</h2>\n        <a href=\"/signup\" class=\"btn btn-lg btn-success\">Login</a>\n        \n    </div>\n\n</div>    ",
+			"file": "appTCC/views/static/index.ejs",
+			"file_size": 270,
+			"file_write_time": 130892558963603430,
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Windows",
+				"name": "<h1>This is our home page.</h1>"
+			}
+		},
+		{
+			"contents": "/**\n * Route Mappings\n * (sails.config.routes)\n *\n * Your routes map URLs to views and controllers.\n *\n * If Sails receives a URL that doesn't match any of the routes below,\n * it will check for matching files (images, scripts, stylesheets, etc.)\n * in your assets directory.  e.g. `http://localhost:1337/images/foo.jpg`\n * might match an image file: `/assets/images/foo.jpg`\n *\n * Finally, if those don't match either, the default 404 handler is triggered.\n * See `api/responses/notFound.js` to adjust your app's 404 logic.\n *\n * Note: Sails doesn't ACTUALLY serve stuff from `assets`-- the default Gruntfile in Sails copies\n * flat files from `assets` to `.tmp/public`.  This allows you to do things like compile LESS or\n * CoffeeScript for the front-end.\n *\n * For more information on configuring custom routes, check out:\n * http://sailsjs.org/#!/documentation/concepts/Routes/RouteTargetSyntax.html\n */\n\nmodule.exports.routes = {\n\n  /***************************************************************************\n  *                                                                          *\n  * Make the view located at `views/homepage.ejs` (or `views/homepage.jade`, *\n  * etc. depending on your default view engine) your home page.              *\n  *                                                                          *\n  * (Alternatively, remove this and add an `index.html` file in your         *\n  * `assets` directory)                                                      *\n  *                                                                          *\n  ***************************************************************************/\n\n  '/': {view: 'static/index'}\n\n  /***************************************************************************\n  *                                                                          *\n  * Custom routes here...                                                    *\n  *                                                                          *\n  * If a request to a URL doesn't match any of the custom routes above, it   *\n  * is matched against Sails route blueprints. See `config/blueprints.js`    *\n  * for configuration options and examples.                                  *\n  *                                                                          *\n  ***************************************************************************/\n\n};\n",
+			"file": "appTCC/config/routes.js",
+			"file_size": 2402,
+			"file_write_time": 130891568387649039,
+			"settings":
+			{
+				"buffer_size": 2394,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "appTCC/config/views.js",
+			"settings":
+			{
+				"buffer_size": 5896,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "appTCC/api/models/Usuario.js",
+			"settings":
+			{
+				"buffer_size": 507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "appTCC/api/controllers/UsuarioController.js",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "appTCC/api/models/Aluno.js",
+			"settings":
+			{
+				"buffer_size": 819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "appTCC/api/controllers/AlunoController.js",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projetoTCC_Node",
+		"/C/projetoTCC_Node/appTCC",
+		"/C/projetoTCC_Node/appTCC/api",
+		"/C/projetoTCC_Node/appTCC/api/controllers",
+		"/C/projetoTCC_Node/appTCC/api/models",
+		"/C/projetoTCC_Node/appTCC/views/aluno",
+		"/C/projetoTCC_Node/appTCC/views/static"
+	],
+	"file_history":
+	[
+		"/C/projetoTCC_Node/.gitignore",
+		"/C/projetoTCC_Node/appTCC/views/aluno/index.ejs",
+		"/C/projetoTCC_Node/appTCC/Gruntfile.js",
+		"/C/projetoTCC_Node/appTCC/views/layout.ejs",
+		"/C/projetoTCC_Node/appTCC/app.js",
+		"/C/Heroku/appTCC/views/static/index.ejs",
+		"/C/Heroku/appTCC/.editorconfig",
+		"/C/wamp/www/application/views/valunonovo.php",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/application/views/valunoeditar.php",
+		"/C/wamp/www/application/views/valuno.php",
+		"/C/projetoTCC_Node/appTCC/config/i18n.js",
+		"/C/Heroku/appTCC/config/git.txt",
+		"/C/Heroku/appTCC/config/connections.js",
+		"/C/wamp/www/application/controllers/aluno.php",
+		"/C/wamp/www/application/models/maluno.php",
+		"/C/projetoTCC_Node/appTCC/config/connections.js",
+		"/C/projetoTCC_Node/appTCC/config/local.js",
+		"/C/wamp/www/application/views/footer.php",
+		"/C/wamp/www/application/views/header.php",
+		"/C/ProjetoTCC_PHP/main/cicrud/application/controllers/News.php",
+		"/C/wamp/www/application/controllers/ccrud.php",
+		"/C/wamp/www/application/config/config.php",
+		"/C/ProjetoTCC_PHP/main/cicrud/application/controllers/ccrud.php",
+		"/C/ProjetoTCC_PHP/main/cicrud/application/controllers/index.html",
+		"/C/ProjetoTCC_PHP/main/cicrud/application/views/pages/home.php",
+		"/C/ProjetoTCC_PHP/main/cicrud/application/views/header.php",
+		"/C/wamp/www/application/views/vcrud.php",
+		"/C/ProjetoTCC_PHP/main/cicrud/application/views/footer.php",
+		"/C/wamp/www/application/config/database.php",
+		"/C/wamp/www/application/models/News_model.php",
+		"/C/Users/RobertoEdgar/Downloads/cicrud-1812015/cicrud/application/models/mcrud.php",
+		"/C/wamp/www/application/index.html",
+		"/C/wamp/www/crud.sql",
+		"/C/wamp/www/application/config/routes.php",
+		"/C/wamp/www/application/views/vcrudedit.php",
+		"/C/wamp/www/application/views/vcrudnew.php",
+		"/C/wamp/www/main/cicrud/application/config/routes.php",
+		"/C/wamp/www/main/cicrud/application/controllers/ccrud.php",
+		"/C/wamp/www/main/cicrud/application/views/vcrud.php",
+		"/C/wamp/www/main/cicrud/application/views/vcrudedit.php",
+		"/C/wamp/www/main/cicrud/application/views/vcrudnew.php",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Tarefa3/exemplo.html",
+		"/C/node-js-getting-started/package.json",
+		"/C/ProjetoTCC_PHP/composer.json",
+		"/C/projetoTCC/appTCC/views/layout.ejs",
+		"/C/projetoTCC/appTCC/assets/js/controllers.js",
+		"/C/projetoTCC/appTCC/views/homepage.ejs",
+		"/C/projetoTCC/appTCC/config/routes.js",
+		"/C/projetoTCC/appTCC/assets/js/app.js",
+		"/C/projetoTCC/appTCC/assets/js/main.js",
+		"/C/projetoTCC/appTCC/api/controllers/AlunoController.js",
+		"/C/projetoTCC/appTCC/api/models/Aluno.js",
+		"/C/projetoTCC/appTCC/config/connections.js",
+		"/C/projetoTCC/appTCC/assets/js/controllers/angAlunoController.js",
+		"/C/projetoTCC/appTCC/views/aluno/index.ejs",
+		"/C/projetoTCC/appTCC/package.json",
+		"/C/projetoTCC/appTCC/app.js",
+		"/C/projetoTCC/appTCC/api/controllers/.gitkeep",
+		"/C/projetoTCC/appTCC/api/responses/serverError.js",
+		"/C/projetoTCC/appTCC/config/log.js",
+		"/C/projetoTCC/appTCC/assets/vendor/requirejs/require.js",
+		"/C/projetoTCC/appTCC/assets/vendor/jquery/jquery.js",
+		"/C/data/primer-dataset.json",
+		"/C/projetoTCC/appTCC/config/i18n.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/AplicaçãoNode/AppMEAN/bower.json",
+		"/C/Users/RobertoEdgar/AppData/Roaming/npm/node_modules/sails/node_modules/include-all/index.js",
+		"/C/myapp/myproject/views/layout.ejs",
+		"/C/myapp/myproject/node_modules/sails-mongo/node_modules/mongodb/README.md",
+		"/C/myapp/myproject/node_modules/sails-mongo/node_modules/mongodb/node_modules/mongodb-core/README.md",
+		"/C/myapp/myproject/bower.json",
+		"/C/myapp/myproject/README.md",
+		"/C/myapp/node_modules/sails/node_modules/anchor/node_modules/geojsonhint/node_modules/jsonlint-lines/node_modules/JSV/jsdoc-toolkit/app/test.js",
+		"/C/myapp/node_modules/sails-generate-bower/README.md",
+		"/C/myapp/myproject/node_modules/sails/node_modules/anchor/node_modules/geojsonhint/node_modules/jsonlint-lines/node_modules/JSV/jsdoc-toolkit/app/test/module.js",
+		"/C/myapp/myproject/node_modules/sails/node_modules/anchor/node_modules/geojsonhint/node_modules/jsonlint-lines/node_modules/JSV/jsdoc-toolkit/app/test.js",
+		"/C/myapp/myproject/package.json",
+		"/C/myapp/myproject/assets/js/controllers/angEmployeeController.js",
+		"/C/myapp/myproject/assets/js/controllers.js",
+		"/C/myapp/myproject/config/models.js",
+		"/C/myapp/myproject/api/controllers/EmployeeController.js",
+		"/C/myapp/myproject/api/models/Employee.js",
+		"/C/myapp/myproject/assets/js/app.js",
+		"/C/myapp/myproject/assets/js/main.js",
+		"/C/myapp/myproject/views/employee/index.ejs",
+		"/C/myapp/myproject/config/connections.js",
+		"/C/myapp/node_modules/sails/node_modules/anchor/node_modules/geojsonhint/node_modules/jsonlint-lines/node_modules/JSV/jsdoc-toolkit/app/test/module.js",
+		"/C/myapp/myproject/app.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/AplicaçãoNode/AppMEAN/views/homepage.ejs",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/AplicaçãoNode/AppMEAN/views/layout.ejs",
+		"/C/myapp/myproject/config/i18n.js",
+		"/C/Users/RobertoEdgar/node_modules/sails/node_modules/i18n/i18n.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/AplicaçãoNode/AppMEAN/config/models.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/AplicaçãoNode/AppMEAN/package.json",
+		"/C/Users/RobertoEdgar/node_modules/sails/bin/sails.js",
+		"/C/wamp/www/application/controllers/Pages.php",
+		"/C/wamp/www/application/views/pages/home.php",
+		"/C/wamp/www/application/views/templates/footer.php",
+		"/C/wamp/www/application/views/templates/header.php",
+		"/C/wamp/www/application/views/pages/about.php",
+		"/C/wamp/www/application/views/news/index.php",
+		"/C/wamp/www/cicrud/application/config/database.php",
+		"/C/wamp/www/cicrud/application/config/routes.php",
+		"/C/wamp/www/cicrud/crud.sql",
+		"/C/wamp/www/application/views/news/create.php",
+		"/C/wamp/www/application/views/news/view.php",
+		"/C/wamp/www/application/controllers/News.php",
+		"/C/myapp/myproject/node_modules/sails/bin/sails.js",
+		"/C/wamp/www/testmysql.php",
+		"/C/wamp/www/cicrud/application/controllers/index.html",
+		"/C/wamp/www/cicrud/user_guide/index.html",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/teste.html",
+		"/C/testeExpress/package.json",
+		"/C/testeExpress/app.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/NodeJS/conexao.js",
+		"/C/Users/RobertoEdgar/Downloads/nodejs-mongodb-angularjs-web-development-master/nodejs-mongodb-angularjs-web-development-master/ch18/express_routes.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/NodeJS/mongoose_connect.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/NodeJS/doc_query.js",
+		"/C/Users/RobertoEdgar/Downloads/nodejs-mongodb-angularjs-web-development-master/nodejs-mongodb-angularjs-web-development-master/ch13/mong.js",
+		"/C/testeExpress/style.styl",
+		"/C/testeExpress/index.jade",
+		"/C/testeExpress/layout.jade",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/app.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/NodeJS/testeExpress/app.js",
+		"/C/Users/RobertoEdgar/Downloads/BasicExpressSite-master/BasicExpressSite-master/app.js",
+		"/C/Users/RobertoEdgar/Downloads/BasicExpressSite-master/BasicExpressSite-master/package.json",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/NodeJS/server.js",
+		"/C/Users/RobertoEdgar/Documents/APW/Tese/Aplicação/NodeJS/client.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp\\www",
+			"C:\\myapp",
+			"*.html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"myModal",
+			"myModalLabel",
+			"#myModal",
+			"ccrud",
+			"id",
+			"ad",
+			"ag",
+			"ln",
+			"fn",
+			"row",
+			"idcrud",
+			"ccrud",
+			"mcrud",
+			"data",
+			"hasil",
+			"ambil",
+			"crud",
+			"ccrud",
+			"3",
+			"endereço",
+			"employee",
+			"fone",
+			"endereço",
+			"fone",
+			"phone",
+			"email",
+			"name",
+			"emp",
+			"employee",
+			"myProject",
+			"myproject",
+			"endereco",
+			"ISBN",
+			"isbn",
+			"ISBN",
+			"isbn",
+			"ISBN",
+			"isbn",
+			"ISBN",
+			"isbn",
+			"\" ",
+			"CLIENTE",
+			"telefone",
+			"CPF",
+			"cpf",
+			"endereco",
+			"senha",
+			"usuario",
+			"principal_cliente",
+			"endereco",
+			"senha",
+			"usuario",
+			"Clientes",
+			"cpf",
+			"CPF",
+			"cpf",
+			"CPF",
+			"cpf",
+			"clientes",
+			"Clientes",
+			"segundos",
+			"CPF",
+			"cpf",
+			"CPF",
+			"ISBN",
+			"Clientes",
+			"valor3",
+			"valor2",
+			"valor1",
+			".Normal",
+			"Normal",
+			"background",
+			"oContent",
+			"Casa",
+			"const",
+			"xxx@imoveis.com.br",
+			"Imobiliária XXXXXX",
+			"div id =",
+			"class =",
+			" class =",
+			"div id =",
+			"aluguel",
+			"Casa C",
+			"Mountain View"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#frmModal",
+			"caluno",
+			"aluno",
+			"projetoTCC",
+			"projetotcc",
+			"werkstadtg@imoveis.com.br",
+			"Imobiliária WerkStadtG",
+			"div class ="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "appTCC/views/layout.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "appTCC/views/static/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<h1>This is our home page.</h1>",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "appTCC/config/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1647,
+								1647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "appTCC/config/views.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4974,
+								4974
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "appTCC/api/models/Usuario.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "appTCC/api/controllers/UsuarioController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "appTCC/api/models/Aluno.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "appTCC/api/controllers/AlunoController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "appNodeJSLocal.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -7,7 +7,7 @@
   <div ng-controller="angAlunoController">
  
     <!-- Botão modal -->
-    <button class="btn btn-primary btn-default" data-toggle="modal" data-target="#myModal" ng-click="adicionaItem()">Adicionar</button>
+    <button class="btn btn-primary btn-default" data-toggle="modal" data-target="#frmModal" ng-click="adicionaItem()">Adicionar</button>
     <div class="row h5">
       
       <div class="col-md-1">
@@ -36,22 +36,22 @@
       <div class="col-md-1" ng-bind="item.matricula"></div>
       <div class="col-md-3" ng-bind="item.nome"></div>
       <div class="col-md-2" ng-bind="item.fone"></div>
-      <div class="col-md-2" ng-bind="item.email"></div>                  
+      <div class="col-md-2" ng-bind="item.email"></div>  
       <div class="col-md-3">  
-        <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal" ng-click="editaItem(item)">Editar</button>
+        <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#frmModal" ng-click="editaItem(item)">Editar</button>
         <button class="btn btn-xs" ng-click="removeItem(item)">Remover</button>
       </div>
 
     </div>
 
     <!-- Tela modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" ng-show="displayForm">
+    <div class="modal fade" id="frmModal" tabindex="-1" role="dialog" aria-labelledby="labelModal" aria-hidden="true" ng-show="displayForm">
       
       <div class="modal-dialog">
 
         <div class="modal-content">  
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Edição de aluno</h4>
+            <h4 class="modal-title" id="labelModal">Edição de aluno</h4>
           </div>
           
           <div class="modal-body">
